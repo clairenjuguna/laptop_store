@@ -3,7 +3,7 @@ ob_start();
 ini_set('date.timezone','Asia/Manila');
 date_default_timezone_set('Asia/Manila');
 session_start();
-
+////ggggihggtbgubibguuhnnhjj
 require_once('initialize.php');
 require_once('classes/DBConnection.php');
 require_once('classes/SystemSettings.php');
@@ -35,7 +35,7 @@ function isMobileDevice(){
         '/blackberry/i' => 'BlackBerry', 
         '/webos/i' => 'Mobile'
     );
-
+////hfhhnnbjgtgtrogogobtjgtgt
     //Return true if Mobile User Agent is detected
     foreach($aMobileUA as $sMobileKey => $sMobileOS){
         if(preg_match($sMobileKey, $_SERVER['HTTP_USER_AGENT'])){
